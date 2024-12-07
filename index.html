@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/main.png"
+      type="image/x-icon"
+    />
+    <title>TP.Final</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/main.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Playwrite+NZ:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <!-- ================================Section navigateur et accueil============================= -->
+    <div id="GLOBAL">
+      <div id="nav">
+        <div class="navimg"><img src="images/main.png" alt="" /></div>
+        <a href="#accueil">Accueil</a>
+        <a href="#inscription">Inscription</a>
+        <a href="#tableau">Jeux</a>
+        <a href="#article">Article</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#video">Vidéo</a>
+        <a href="#footer">Pied de page</a>
+        <div class="navimg2"><img src="images/main.png" alt="" /></div>
+      </div>
+      <!-- ================================Section de l'accueil================================== -->
+      <header id="accueil">
+        <p><a href="https://github.com/w-malak/monTP2">Lien GitHub</a></p>
+        <h2>TP2 - Automne 2024</h2>
+        <h1>TIM Jojo Wiki</h1>
+        <div id="p">
+          <p>Auteure: Malak Wadeh</p>
+          <p>Techniques d'intégration multimédia</p>
+          <p>Collège de Maisonneuve</p>
+        </div>
+      </header>
+      <!-- ========================================Section Inscription/ Formulaire==================================== -->
+      <div id="inscription">
+        <div id="texte-Inscrip">
+          <h1>Inscription</h1>
+          <h2>
+            Inscrivez-vous à notre site pour accéder à plus de faits amusantes!
+          </h2>
+        </div>
+        <form action="/ma-page-de-traitement" method="post">
+          <h3>Donnez votre avis!</h3>
+          <p>★ Votre genre:</p>
+          <input type="radio" id="genre" name="genre" value="homme" />
+          <label for="genre">Homme</label> <br />
+          <input type="radio" id="genre" name="genre" value="femme" />
+          <label for="genre">Femme</label> <br />
+          <input type="radio" id="genre" name="genre" value="autre" />
+          <label for="genre">Autre</label>
+          <ul>
+            <p>★ Inserez votre nom et votre e-mail</p>
+            <li>
+              <label for="name">Nom&nbsp;:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="email">E-mail&nbsp;:</label>
+              <input type="email" id="mail" name="user_email" />
+            </li>
+
+            <p>★ Quel est ton Stardust Crusader préféré?</p>
+            <label for="perso">Crusader</label>
+            <select id="prerso" name="perso">
+              <option value="jotaro">Jotaro</option>
+              <option value="kakyoin">Kakyoin</option>
+              <option value="joseph">Joseph</option>
+              <option value="avdul">Avdul</option>
+              <option value="polnareff">Polnareff</option>
+              <option value="iggy">Iggy</option></select
+            ><br />
+            <li>
+              <p>★ Quel est votre avis sur Jotaro Kujo?</p>
+              <label for="msg">Avis&nbsp;:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+
+            <input type="submit" id="bouton" value="Soumettre" />
+          </ul>
+        </form>
+      </div>
+      <!-- ===========================================Section du Tableau======================================= -->
+      <div id="tableau">
+        <h2>Jeux</h2>
+        <p>
+          Jotaro n'apparait pas que dans la série et le manga, on le voit aussi
+          dans plusieurs jeux vidéos de "Jojo's Bizarre Adventures"(JJBA)!
+        </p>
+        <p>Voici quelques exemples:</p>
+        <table>
+          <tr>
+            <th>Jeux</th>
+            <th>Apparition-Date</th>
+            <th>Coût</th>
+            <th>Plateformes disponible</th>
+            <th>Vignettes</th>
+          </tr>
+
+          <tr>
+            <td>GioGio's Bizarre Adventure</td>
+            <td>JP: 25 juillet 2002</td>
+            <td>-</td>
+            <td>PlayStation2</td>
+            <td><img src="images/gigioBA.jpg" alt="" /></td>
+          </tr>
+          <tr>
+            <td>Jojo's Bizarre Adventure HD Ver.</td>
+            <td>JP: 21 août 2012, EU: 29 août 2012</td>
+            <td>$19.99</td>
+            <td>Xbox Live Arcade (XBLA), PlayStation3</td>
+            <td><img src="images/HD.Ver.jpg" alt="" /></td>
+          </tr>
+
+          <tr>
+            <td>Jojo's Bizarre Adventure: Eyes of Heaven</td>
+            <td>JP: 17 décembre 2015 EU: 1er juillet 2016</td>
+            <td>£21.54 = $31.91</td>
+            <td>PlayStation3, PlayStation 4</td>
+            <td><img src="images/eyes of heaven.jpg" alt="" /></td>
+          </tr>
+
+          <tr>
+            <td>Jojo's Bizarre Adventure: All-Star Battle R</td>
+            <td>JP: 1er septembre 2022 WW: 2 septembre 2022</td>
+            <td>PS4-5: $59.99 Xbox et Nintendo Switch: $49.99 Steam: $64.99</td>
+            <td>PS4-5, Xbox, Nintendo Switch, Steam</td>
+            <td>
+              <img
+                src="images/720px-All-Star_Battle_R_JP_PS4_Cover.png"
+                alt=""
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Jojo's Bizarre Adventure: Phantom Blood</td>
+            <td>JP: 26 octobre 2006</td>
+            <td>$24.27</td>
+            <td>PlayStation2</td>
+            <td><img src="images/Phantom_Blood_Game.jpg" alt="" /></td>
+          </tr>
+        </table>
+      </div>
+      <!-- ============================================Section de l'article======================================== -->
+      <div id="article">
+        <h1>Jotaro Kujo</h1>
+        <div id="paragraphe1">
+          <h2>Son histoire et ses aventures</h2>
+          <p>
+            Jotaro Kujo est un des personnages le plus aimé de la série, mais
+            aussi un des personnages le plus développé au cours de la série
+            "Jojo's Bizarre Adventures". Il a voyagé avec ses compagnons pour
+            vaincre le vampire qui hantait son arbre généalogique depuis une
+            décennie (son arrière grand-père,Jonathan Joestar et son grand-père,
+            Joseph Joestar et autres personnages à venir...).
+          </p>
+        </div>
+        <div id="paragraphe2">
+          <h2>⋆⭒˚.⋆Son Stand/Pouvoir: Star Platinum ⋆⭒˚.⋆</h2>
+          <p>
+            Star Platinum est l'un des "Stand" les plus puissants de "JoJo's
+            Bizarre Adventure". Il possède une force surhumaine, capable de
+            délivrer des coups rapides et dévastateurs connus sous le nom d'Ora
+            Ora Rush. Sa vitesse est exceptionnelle, lui permettant de réagir
+            plus vite que l'œil ne peut suivre et de déjouer la plupart des
+            ennemis. Le support excelle également en termes de précision,
+            capable d'effectuer des tâches complexes comme attraper des balles
+            en l'air ou enfiler une aiguille avec facilité. L'endurance et la
+            durabilité du Star Platinum le rendent très résistant aux dommages,
+            et sa vue perçante permet à Jotaro de voir les objets éloignés ou
+            cachés. Dans la partie 3, ses pouvoirs sont principalement
+            physiques, mais dans la partie 4, Star Platinum évolue pour acquérir
+            la capacité d'arrêter le temps, un mouvement appelé "Star Platinum :
+            The World". Cela permet à Jotaro de figer le temps pendant une
+            moitié d'une seconde, lui donnant un énorme avantage au combat.
+            C’est l’équilibre parfait entre force brute, vitesse et précision.
+          </p>
+        </div>
+      </div>
+      <!-- =============================================Section galerie et vidéo======================================== -->
+      <div id="galerie-vid">
+        <!-- =============================================Section vidéo======================================== -->
+        <div id="video">
+          <h2>˗ˏˋ ★ ˎˊ˗ Combat entre Jotaro et Dio le vampire ˗ˏˋ ★ ˎˊ˗</h2>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Oc2Sclb99qw?si=HbfTl1Ajp_4rbSOM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <!-- =============================================Section galerie======================================== -->
+        </div>
+        <div id="galerie">
+          <img src="images/JotaroProfile.webp" alt="" />
+          <img src="images/frontJojo.jpg" alt="" />
+          <img src="images/jotaro part4.webp" alt="" />
+          <img src="images/Jotaro part5.png" alt="" />
+          <img src="images/JotaroPart6.jpg" alt="" />
+        </div>
+      </div>
+
+      <footer>
+        <div id="footer">
+          <p>3800, rue Sherbrooke Est Montréal, Québec, H1X 2A2</p>
+          <p><a href="https://jojowiki.com/Jotaro_Kujo">JojoWiki</a></p>
+          <p>
+            <a href="https://www.cmaisonneuve.qc.ca">Collège de Maisonneuve</a>
+          </p>
+          <p>
+            <a href="https://www.netflix.com/ca-fr/title/80179831">Netflix </a>
+          </p>
+          <p>Avis de confidentialité | Privacy Notice</p>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-youtube"></ion-icon>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
